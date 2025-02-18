@@ -1,5 +1,3 @@
-Here is your README.md file:
-
 # Job Screening APIs
 
 This repository contains two APIs for automating job screening:
@@ -18,36 +16,30 @@ Follow these steps to set up and run the project:
 2. **Create a Virtual Environment**  
    ```sh
    python -m venv venv
+   ```
 
-	3.	Activate the Virtual Environment
-	•	Windows:
+3. **Activate the Virtual Environment**  
+   - **Windows:**  
+     ```sh
+     venv\Scripts\activate
+     ```
+   - **Mac/Linux:**  
+     ```sh
+     source venv/bin/activate
+     ```
 
-venv\Scripts\activate
+4. **Install Dependencies**  
+   ```sh
+   pip install -r requirements.txt
+   ```
 
+5. **Run the API Server**  
+   ```sh
+   uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   ```
 
-	•	Mac/Linux:
-
-source venv/bin/activate
-
-
-	4.	Install Dependencies
-
-pip install -r requirements.txt
-
-
-	5.	Run the API Server
-
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-
-
-	6.	Access API Documentation
-Open your browser and go to:
-
-http://localhost:8000/docs
-
-
-
-License
-
-This project is licensed under MIT License.
-
+6. **Access API Documentation**  
+   Open your browser and go to:  
+   ```
+   http://localhost:8000/docs
+   ```
