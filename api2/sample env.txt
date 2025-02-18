@@ -1,0 +1,7 @@
+AZURE_OPENAI_ENDPOINT="https://xyz.openai.azure.com"
+AZURE_OPENAI_API_KEY="xxx"
+AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4o"
+DOCUMENT_INTELLIGENCE_KEY="xxx"
+DOCUMENT_INTELLIGENCE_ENDPOINT="https://tryy.cognitiveservices.azure.com"
+AZURE_TEXT_ANALYTICS_ENDPOINT= "https://tryy2.services.ai.azure.com/"
+AZURE_TEXT_ANALYTICS_KEY= "xxx"
